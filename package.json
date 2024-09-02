@@ -1,0 +1,23 @@
+{
+  "name": "api_inmetrics",
+  "version": "2.0.0",
+  "description": "Case API - Inmetrics",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "API"
+  ],
+  "author": "Lucas",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/support/steps"
+  }
+}
